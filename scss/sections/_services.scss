@@ -1,0 +1,57 @@
+@use '../custom' as *;
+@use '../components/mixins' as *;
+
+.services {
+    position: relative;
+    padding: 1rem 0;
+
+    &__content {
+        padding: 1rem;
+        margin-top: 0;
+
+        p {
+            font-size: 0.8rem;
+
+            @include media-breakpoint-up(lg) {
+                font-size: 1rem;
+            }
+        }
+
+        @include media-breakpoint-up(lg) {
+            margin-top: 5rem;
+        }
+
+        .icon {
+            font-size: 1.5rem;
+            color: $primary;
+
+            @include media-breakpoint-up(lg) {
+                margin-top: 4.5rem;
+            }
+        }
+    }
+
+    &__pic {
+        max-width: 100%;
+    }
+
+    &__sub-icons {
+        a {
+            color: $primary;
+            text-decoration: none;
+
+            i {
+                font-size: 1rem;
+                margin: 0rem 3rem 1.5rem 3rem;
+
+                @include media-breakpoint-up(sm) {
+                    font-size: 1.6rem;
+                }
+                &:hover {
+                    color: $gray-600;
+                }
+            }
+        }
+    }
+
+}
