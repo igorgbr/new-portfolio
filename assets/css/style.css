@@ -11083,6 +11083,20 @@ textarea.form-control-lg {
   font-weight: 500;
   font-size: 1.5rem;
 }
+@media (max-width: 575.98px) {
+  .projects {
+    font-size: 0.7rem;
+    line-height: 3;
+    padding-left: 0;
+  }
+}
+@media (min-width: 576px) {
+  .projects {
+    font-size: 1.2rem;
+    line-height: 3;
+    padding-left: 0;
+  }
+}
 .projects a {
   text-decoration: none;
 }
