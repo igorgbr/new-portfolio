@@ -10977,6 +10977,20 @@ textarea.form-control-lg {
   color: #6c757d;
 }
 
+.modal-title {
+  text-transform: capitalize;
+}
+
+.modal-courses {
+  color: #5a4574;
+  list-style-type: none;
+  text-indent: 2rem;
+  line-height: 2;
+  font-weight: 400;
+  font-size: 1rem;
+  text-transform: capitalize;
+}
+
 .testimonials {
   position: relative;
   padding: 0;

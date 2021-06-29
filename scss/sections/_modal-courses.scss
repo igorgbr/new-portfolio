@@ -1,0 +1,16 @@
+@use '../custom' as *;
+@use '../components/mixins' as *;
+
+
+.modal-title {
+                text-transform: capitalize;
+}
+.modal-courses {
+    color: $primary;
+    list-style-type: none;
+    text-indent: 2rem;
+    line-height: 2;
+    font-weight: 400;
+    font-size: 1rem;
+    text-transform: capitalize;
+}
