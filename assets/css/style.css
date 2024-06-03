@@ -50,8 +50,8 @@ body {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #212529;
-  background-color: #fff;
+  color: #3b253f;
+  background-color: #fbf7ff;
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
@@ -10982,6 +10982,7 @@ textarea.form-control-lg {
 }
 
 .modal-courses {
+  background-color: #efeaf5;
   color: #5a4574;
   list-style-type: none;
   text-indent: 2rem;
